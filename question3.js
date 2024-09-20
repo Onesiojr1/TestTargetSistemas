@@ -1,5 +1,5 @@
 
-const billings = [1000, 0, 1500, 3000, 0, 500, 1200, 0, 0, 2300, 4000, 600, 0, 750, 1900, 0, 0, 0, 2700, 0];
+const billings = [1000, 2100, 890, 3010, 0, 500, 1200, 0, 0, 2300, 4000, 600, 0, 750, 1900, 2700, 0];
 
 function billingStatistics(billing) {
   const validBilling = billing.filter(value => value > 0)
